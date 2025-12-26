@@ -9,7 +9,7 @@
 
 body {
   font-family: "Figtree", sans-serif;
-  background-color: #F6D050;
+  background-color: hsl(47, 88%, 63%);
 }
 
 .container {
@@ -22,9 +22,9 @@ body {
   background-color: #ffffff;
   width: 25%;
   border-radius: 15px;
-  box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.75);
+  box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
+  -webkit-box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
+  -moz-box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
   overflow: hidden;
   padding: 20px;
   margin: 6% auto;
@@ -49,7 +49,7 @@ body {
 }
 
 .card--text h4 {
-  background-color: #F6D050;
+  background-color: hsl(47, 88%, 63%);
   color: #000000;
   padding: 5px 10px;
   border-radius: 5px;
@@ -64,15 +64,16 @@ body {
 }
 
 .card--text h1 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 20px;
 
 }
 
 .card--text p {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
+  color: hsl(0, 0%, 42%);
 }
 
 .card--avatar {
@@ -99,10 +100,6 @@ body {
     width: 80%;
   }
 
-  .card h1 {
-    text-wrap: nowrap;
-    font-size: 18px;
-  }
 
   .container {
     padding: 0 10px;
@@ -110,7 +107,7 @@ body {
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 375px) {
   .card {
     width: 80%;
   }
